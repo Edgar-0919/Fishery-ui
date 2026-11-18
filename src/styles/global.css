@@ -1,0 +1,85 @@
+/* 导航按钮全局样式 */
+.nav-btn {
+    border-radius: 8px !important;
+    background-color: #6ab8e6 !important;
+    color: #FFFFFF !important;
+    font-size: 17px !important;
+    width: 148px !important;
+    height: 46px !important;
+    border: none !important;
+    font-weight: 500 !important;
+    transition: all 0.3s ease !important;
+}
+.nav-btn:hover {
+    background-color: #409EFF !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(64, 158, 255, 0.4);
+}
+.nav-btn.active-nav {
+    background-color: #409EFF !important;
+    box-shadow: 0 0 0 3px rgba(64, 158, 255, 0.3);
+    font-weight: 700 !important;
+}
+
+/* 预测标签按钮 */
+.predict-tab-btn {
+    border-radius: 8px !important;
+    margin-right: 15px !important;
+    transition: all 0.3s ease !important;
+}
+
+/* 卡片标题 */
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #303133;
+}
+
+/* 指标文字 */
+.metric-label {
+    font-size: 14px;
+    color: #606266;
+    font-weight: 500;
+}
+.metric-value {
+    font-size: 22px;
+    font-weight: 700;
+    color: #303133;
+    margin-top: 4px;
+}
+
+/* 灰色提示文字 */
+.gray-tip {
+    color: #909399;
+    font-size: 13px;
+}
+
+/* 蓝色链接 */
+.blue-link {
+    color: #409EFF;
+    font-size: 13px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.blue-link:hover {
+    color: #337ecc;
+    text-decoration: underline;
+}
+
+/* Element Plus 部分组件样式覆盖 */
+.el-button--primary {
+    background-color: #409EFF !important;
+    border-color: #409EFF !important;
+}
+.el-tag {
+    border-radius: 4px !important;
+}
+.el-progress-bar__outer {
+    border-radius: 10px !important;
+}
+.el-slider__bar {
+    background-color: #409EFF !important;
+}
+.el-slider__button {
+    border-color: #409EFF !important;
+}
